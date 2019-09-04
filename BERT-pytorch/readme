@@ -1,0 +1,1 @@
+python source/run.py --train_dataset data/smi_pair --vocab_path data/vocab_pair --output_path save_model/mol_bert.model --on_memory --cuda_devices 2 --seq_len 100 --batch_size 64
