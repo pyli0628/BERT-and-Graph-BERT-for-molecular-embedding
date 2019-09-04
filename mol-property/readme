@@ -1,0 +1,1 @@
+python source/run.py --train_dataset data/logp_qed_sas_500000.csv --vocab_path data/vocab --bert_path pretrained_bert/mol_bertep5 --cuda_devices 0 --output_path out/ --batch_size 100

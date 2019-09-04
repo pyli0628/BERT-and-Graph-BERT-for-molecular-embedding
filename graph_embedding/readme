@@ -1,0 +1,1 @@
+ python source/run.py --train_dataset data/test_graph --test_dataset data/test_graph --layers 3 --model 1 --output_path out/ --cuda_devices 1 2 3  --epochs 1000 --attn_heads 4
